@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	font-family: Verdana;
+	position: relative;
+	text-align: center;
+	
+}
+p, li{
+	color: #fff;
+	font-size: 15px;
+}
+p::first-letter{
+	font-size: 1em;
+}
+.dark{
+	background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 0;
+}
+h1{
+	padding: 21px 0 21px 0;
+}
+.content{
+	background-color: #BF3FBF;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: center;
+    z-index: -1;
+    width: 1200px;
+    margin: auto;
+    padding: 10px;
+	
+}
+.courses{
+	list-style-type: none;
+	width: 600px;
+	text-align: left;
+	margin: auto;
+}
+li{
+	padding: 3px 0 3px 0;
+}
+.films{
+	list-style-type: none;
+	width: 600px;
+	text-align: left;
+	margin: auto;
+}
+.films a{
+	text-decoration: none;
+}
+.films a:hover{
+	text-decoration: underline;	
+} 
+.happy, .sad{
+	margin: 20px 0 20px 0;
+}
+.happy img, .sad img{
+	width: 700px;
+	height: auto;
+}
